@@ -24,5 +24,5 @@ binary_tree_t *binary_tree_node(binary_tree_t *parent, int value)
 	created->left = NULL; /*no children*/
 	created->right = NULL;
 
-	return (created); /*pointer to new node*/
+	return (created); /* a pointer to new node*/
 }
